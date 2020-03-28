@@ -14,7 +14,8 @@ suite.addTest(unittest.makeSuite(TestEmp))
 # 获取时间戳
 # time = time.strftime("%Y%m%d_%H%M%S")
 # 设置测试报告路径，调用app里工的FILENAME
-report = app.FILENAME + "/report/ihrm_{}.html".format(time.strftime("%Y%m%d_%H%M%S"))
+# report = app.FILENAME + "/report/ihrm_{}.html".format(time.strftime("%Y%m%d_%H%M%S"))
+report = app.FILENAME + "/report/ihrm.html"
 
 # 使用 HTMLTestRunner_PY3 生成测试报告
 with open(report,"wb")as f:
