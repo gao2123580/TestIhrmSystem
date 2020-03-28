@@ -1,23 +1,68 @@
-2020-03-28 14:55:11,751 INFO [root] [__init__.py(<module>:16)] - test:-------打印日志信息--------
-2020-03-28 14:55:11,918 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'fbe1bae2-644a-470c-b143-f02b4b551e54'}
-2020-03-28 14:55:11,990 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2020-03-28 14:55:12,059 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2020-03-28 14:55:12,127 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2020-03-28 14:55:12,194 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2020-03-28 14:55:12,265 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2020-03-28 14:55:12,334 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2020-03-28 14:55:12,406 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '1077ba79-55a7-4fe8-9ed5-a75e64386e43'}
-2020-03-28 14:55:12,474 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2020-03-28 14:55:12,542 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2020-03-28 14:55:12,614 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
-2020-03-28 14:55:12,687 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
-2020-03-28 14:55:12,756 INFO [root] [test_emp02.py(test01_emp_login_succeed:32)] - 员工模块登录的响应结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '36a40b02-b0be-4eb9-9a2c-b823bb4ac334'}
-2020-03-28 14:55:12,757 INFO [root] [test_emp02.py(test01_emp_login_succeed:38)] - 请求头部数据为:{'Content-Type': 'application/json', 'Authorization': 'Bearer 36a40b02-b0be-4eb9-9a2c-b823bb4ac334'}
-2020-03-28 14:55:12,832 INFO [root] [test_emp02.py(test02_add_emp:50)] - 添加员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243793744427569152'}}
-2020-03-28 14:55:12,832 INFO [root] [test_emp02.py(test02_add_emp:53)] - 添加员工返回的json数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243793744427569152'}}
-2020-03-28 14:55:12,833 INFO [root] [test_emp02.py(test02_add_emp:57)] - 获取员工的id为：1243793744427569152
-2020-03-28 14:55:12,904 INFO [root] [test_emp02.py(test03_quer_emp:69)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243793744427569152', 'mobile': '14790124444', 'username': '我是你的超级英雄007', 'password': '8ecda3c21737968c15223ac1f179d156', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1226092852421177344', 'timeOfEntry': '2020-03-16T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-03-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': 'snowsnow', 'roleIds': [], 'staffPhoto': None}}
-2020-03-28 14:55:12,980 INFO [root] [test_emp02.py(test04_modify_emp:79)] - 修改员工返回的结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243793744427569152'}}
-2020-03-28 14:55:13,115 INFO [root] [test_emp02.py(test04_modify_emp:87)] - 打印sql语句select username from bs_user where id=1243793744427569152
-2020-03-28 14:55:13,156 INFO [root] [test_emp02.py(test04_modify_emp:91)] - 执行sql语句查询的结果为('奥特曼',)
-2020-03-28 14:55:13,232 INFO [root] [test_emp02.py(test05_delete_emp:106)] - 删除响应结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-28 16:45:02,989 INFO [root] [__init__.py(<module>:16)] - test:-------打印日志信息--------
+2020-03-28 16:45:03,442 INFO [root] [test_emp.py(test01_emp_login_succeed:31)] - 员工模块登录的响应结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'eb3190e1-d7d7-4e6f-9cca-456c89049f7e'}
+2020-03-28 16:45:03,442 INFO [root] [test_emp.py(test01_emp_login_succeed:37)] - 请求头部数据为:{'Content-Type': 'application/json', 'Authorization': 'Bearer eb3190e1-d7d7-4e6f-9cca-456c89049f7e'}
+2020-03-28 16:45:03,521 INFO [root] [test_emp.py(test01_emp_login_succeed:51)] - 添加员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243821387688529920'}}
+2020-03-28 16:45:03,538 INFO [root] [test_emp.py(test01_emp_login_succeed:54)] - 添加员工返回的json数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243821387688529920'}}
+2020-03-28 16:45:03,538 INFO [root] [test_emp.py(test01_emp_login_succeed:58)] - 获取员工的id为：1243821387688529920
+2020-03-28 16:45:03,538 INFO [root] [test_emp.py(test01_emp_login_succeed:65)] - 拼接员工接口url:http://182.92.81.159/api/sys/user/1243821387688529920
+2020-03-28 16:45:03,609 INFO [root] [test_emp.py(test01_emp_login_succeed:69)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243821387688529920', 'mobile': '14587333330', 'username': '我是你的超级abf', 'password': '660432884112bbafa4f6041cf5705870', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1226092852421177344', 'timeOfEntry': '2020-03-16T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-03-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': 'snowsnow', 'roleIds': [], 'staffPhoto': None}}
+2020-03-28 16:45:03,609 INFO [root] [test_emp.py(test01_emp_login_succeed:76)] - 拼接修改的url:http://182.92.81.159/api/sys/user/1243821387688529920
+2020-03-28 16:45:03,687 INFO [root] [test_emp.py(test01_emp_login_succeed:80)] - 修改员工返回的结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243821387688529920'}}
+2020-03-28 16:45:03,687 INFO [root] [test_emp.py(test01_emp_login_succeed:87)] - 删除所需要的url:http://182.92.81.159/api/sys/user/1243821387688529920
+2020-03-28 16:45:03,767 INFO [root] [test_emp.py(test01_emp_login_succeed:91)] - 删除响应结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-28 16:45:03,840 INFO [root] [test_emp02.py(test01_emp_login_succeed:32)] - 员工模块登录的响应结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5088fa4b-dad6-496d-99a9-d93d446eb6b3'}
+2020-03-28 16:45:03,840 INFO [root] [test_emp02.py(test01_emp_login_succeed:38)] - 请求头部数据为:{'Content-Type': 'application/json', 'Authorization': 'Bearer 5088fa4b-dad6-496d-99a9-d93d446eb6b3'}
+2020-03-28 16:45:03,918 INFO [root] [test_emp02.py(test02_add_emp:50)] - 添加员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243821389353668608'}}
+2020-03-28 16:45:03,918 INFO [root] [test_emp02.py(test02_add_emp:53)] - 添加员工返回的json数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243821389353668608'}}
+2020-03-28 16:45:03,918 INFO [root] [test_emp02.py(test02_add_emp:57)] - 获取员工的id为：1243821389353668608
+2020-03-28 16:45:03,990 INFO [root] [test_emp02.py(test03_quer_emp:69)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243821389353668608', 'mobile': '14790124444', 'username': '我是你的超级英雄007', 'password': '8ecda3c21737968c15223ac1f179d156', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1226092852421177344', 'timeOfEntry': '2020-03-16T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-03-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': 'snowsnow', 'roleIds': [], 'staffPhoto': None}}
+2020-03-28 16:45:04,071 INFO [root] [test_emp02.py(test04_modify_emp:79)] - 修改员工返回的结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243821389353668608'}}
+2020-03-28 16:45:04,242 INFO [root] [test_emp02.py(test04_modify_emp:87)] - 打印sql语句select username from bs_user where id=1243821389353668608
+2020-03-28 16:45:04,282 INFO [root] [test_emp02.py(test04_modify_emp:91)] - 执行sql语句查询的结果为('奥特曼',)
+2020-03-28 16:45:04,357 INFO [root] [test_emp02.py(test05_delete_emp:106)] - 删除响应结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-28 16:45:04,432 INFO [root] [test_login.py(test01_login_succeed:29)] - 登录响应的结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5088fa4b-dad6-496d-99a9-d93d446eb6b3'}
+2020-03-28 16:45:04,505 INFO [root] [test_login.py(test02_pwd_error:45)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:04,575 INFO [root] [test_login.py(test03_mobile_is_not_exists:58)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:04,745 INFO [root] [test_login.py(test04_mobile_english_str:71)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:04,869 INFO [root] [test_login.py(test05_mobile_specific_symbol:83)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:04,951 INFO [root] [test_login.py(test06_mobile_null:96)] - 登录响应的结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5088fa4b-dad6-496d-99a9-d93d446eb6b3'}
+2020-03-28 16:45:05,100 INFO [root] [test_login.py(test07_pwd_null:109)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:05,170 INFO [root] [test_login.py(test08_more_parameter:122)] - 登录响应的结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5088fa4b-dad6-496d-99a9-d93d446eb6b3'}
+2020-03-28 16:45:05,244 INFO [root] [test_login.py(test09_lack_mobile:135)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:05,317 INFO [root] [test_login.py(test10_lack_pwd:148)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:05,386 INFO [root] [test_login.py(test11_not_parameter:161)] - 登录响应的结果:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-28 16:45:05,454 INFO [root] [test_login.py(test12_error_parameter:174)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:05,525 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5088fa4b-dad6-496d-99a9-d93d446eb6b3'}
+2020-03-28 16:45:05,598 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:05,671 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:05,742 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:05,813 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:05,885 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:05,959 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:06,034 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '5088fa4b-dad6-496d-99a9-d93d446eb6b3'}
+2020-03-28 16:45:06,104 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:06,175 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:06,245 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-28 16:45:06,319 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 16:45:06,392 INFO [root] [test_zuoye.py(test_login_emp:32)] - 登录返回的结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '141121f4-1ba3-4378-b7aa-b575309a6b2e'}
+2020-03-28 16:45:06,392 INFO [root] [test_zuoye.py(test_login_emp:32)] - 登录返回的结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '141121f4-1ba3-4378-b7aa-b575309a6b2e'}
+2020-03-28 16:45:06,392 INFO [root] [test_zuoye.py(test_login_emp:36)] - 返回的令牌:141121f4-1ba3-4378-b7aa-b575309a6b2e
+2020-03-28 16:45:06,392 INFO [root] [test_zuoye.py(test_login_emp:36)] - 返回的令牌:141121f4-1ba3-4378-b7aa-b575309a6b2e
+2020-03-28 16:45:06,393 INFO [root] [test_zuoye.py(test_login_emp:41)] - 请求头信息:{'Content-Type': 'application/json', 'Authorization': 'Bearer 141121f4-1ba3-4378-b7aa-b575309a6b2e'}
+2020-03-28 16:45:06,393 INFO [root] [test_zuoye.py(test_login_emp:41)] - 请求头信息:{'Content-Type': 'application/json', 'Authorization': 'Bearer 141121f4-1ba3-4378-b7aa-b575309a6b2e'}
+2020-03-28 16:45:06,466 INFO [root] [test_zuoye.py(test_login_emp:56)] - 打印添加员工响应数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243821400061726720'}}
+2020-03-28 16:45:06,466 INFO [root] [test_zuoye.py(test_login_emp:56)] - 打印添加员工响应数据：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243821400061726720'}}
+2020-03-28 16:45:06,466 INFO [root] [test_zuoye.py(test_login_emp:60)] - 获取员工的id:1243821400061726720
+2020-03-28 16:45:06,466 INFO [root] [test_zuoye.py(test_login_emp:60)] - 获取员工的id:1243821400061726720
+2020-03-28 16:45:06,466 INFO [root] [test_zuoye.py(test_login_emp:65)] - 查询员工的url:http://182.92.81.159/api/sys/user/1243821400061726720
+2020-03-28 16:45:06,466 INFO [root] [test_zuoye.py(test_login_emp:65)] - 查询员工的url:http://182.92.81.159/api/sys/user/1243821400061726720
+2020-03-28 16:45:06,540 INFO [root] [test_zuoye.py(test_login_emp:71)] - 查询返回的响应体：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243821400061726720', 'mobile': '14585555555', 'username': '爱因斯奥托曼打怪兽', 'password': '4eda38a679fe22a3f4cc9ab57445c146', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1226092852421177344', 'timeOfEntry': '2020-03-16T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-03-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': 'snowsnow', 'roleIds': [], 'staffPhoto': None}}
+2020-03-28 16:45:06,540 INFO [root] [test_zuoye.py(test_login_emp:71)] - 查询返回的响应体：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243821400061726720', 'mobile': '14585555555', 'username': '爱因斯奥托曼打怪兽', 'password': '4eda38a679fe22a3f4cc9ab57445c146', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1226092852421177344', 'timeOfEntry': '2020-03-16T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-03-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': 'snowsnow', 'roleIds': [], 'staffPhoto': None}}
+2020-03-28 16:45:06,541 INFO [root] [test_zuoye.py(test_login_emp:76)] - 打印修改员工:http://182.92.81.159/api/sys/user/1243821400061726720
+2020-03-28 16:45:06,541 INFO [root] [test_zuoye.py(test_login_emp:76)] - 打印修改员工:http://182.92.81.159/api/sys/user/1243821400061726720
+2020-03-28 16:45:06,615 INFO [root] [test_zuoye.py(test_login_emp:82)] - 修改请求响应体：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243821400061726720'}}
+2020-03-28 16:45:06,615 INFO [root] [test_zuoye.py(test_login_emp:82)] - 修改请求响应体：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243821400061726720'}}
+2020-03-28 16:45:06,615 INFO [root] [test_zuoye.py(test_login_emp:87)] - 删除员工的路径http://182.92.81.159/api/sys/user/1243821400061726720
+2020-03-28 16:45:06,615 INFO [root] [test_zuoye.py(test_login_emp:87)] - 删除员工的路径http://182.92.81.159/api/sys/user/1243821400061726720
+2020-03-28 16:45:06,721 INFO [root] [test_zuoye.py(test_login_emp:93)] - 删除的结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-28 16:45:06,721 INFO [root] [test_zuoye.py(test_login_emp:93)] - 删除的结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}

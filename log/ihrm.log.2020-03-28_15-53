@@ -1,0 +1,23 @@
+2020-03-28 15:53:07,703 INFO [root] [__init__.py(<module>:16)] - test:-------打印日志信息--------
+2020-03-28 15:53:07,925 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'e9877403-77bf-4a20-9b90-ffeb295d8c2b'}
+2020-03-28 15:53:07,998 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 15:53:08,069 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 15:53:08,140 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 15:53:08,211 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 15:53:08,281 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 15:53:08,352 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 15:53:08,420 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'bace2514-fb06-4f80-a022-a0da4dd331bc'}
+2020-03-28 15:53:08,489 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 15:53:08,559 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 15:53:08,627 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-28 15:53:08,696 INFO [root] [test_login_parameterized.py(test01_login:34)] - 登录响应的结果:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-28 15:53:08,776 INFO [root] [test_emp02.py(test01_emp_login_succeed:32)] - 员工模块登录的响应结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '37b51fe3-a125-4955-8992-6baef8e5d804'}
+2020-03-28 15:53:08,776 INFO [root] [test_emp02.py(test01_emp_login_succeed:38)] - 请求头部数据为:{'Content-Type': 'application/json', 'Authorization': 'Bearer 37b51fe3-a125-4955-8992-6baef8e5d804'}
+2020-03-28 15:53:08,845 INFO [root] [test_emp02.py(test02_add_emp:50)] - 添加员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243808323853438976'}}
+2020-03-28 15:53:08,845 INFO [root] [test_emp02.py(test02_add_emp:53)] - 添加员工返回的json数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243808323853438976'}}
+2020-03-28 15:53:08,846 INFO [root] [test_emp02.py(test02_add_emp:57)] - 获取员工的id为：1243808323853438976
+2020-03-28 15:53:08,920 INFO [root] [test_emp02.py(test03_quer_emp:69)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243808323853438976', 'mobile': '14790124444', 'username': '我是你的超级英雄007', 'password': '8ecda3c21737968c15223ac1f179d156', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1226092852421177344', 'timeOfEntry': '2020-03-16T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-03-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': 'snowsnow', 'roleIds': [], 'staffPhoto': None}}
+2020-03-28 15:53:08,994 INFO [root] [test_emp02.py(test04_modify_emp:79)] - 修改员工返回的结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243808323853438976'}}
+2020-03-28 15:53:09,122 INFO [root] [test_emp02.py(test04_modify_emp:87)] - 打印sql语句select username from bs_user where id=1243808323853438976
+2020-03-28 15:53:09,163 INFO [root] [test_emp02.py(test04_modify_emp:91)] - 执行sql语句查询的结果为('奥特曼',)
+2020-03-28 15:53:09,239 INFO [root] [test_emp02.py(test05_delete_emp:106)] - 删除响应结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
