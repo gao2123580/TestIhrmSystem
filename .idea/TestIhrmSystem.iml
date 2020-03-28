@@ -12,5 +12,6 @@
     <orderEntry type="module" module-name="Test_tpshop_system" />
     <orderEntry type="module" module-name="-" />
     <orderEntry type="module" module-name="-" />
+    <orderEntry type="module" module-name="Mock" />
   </component>
 </module>
