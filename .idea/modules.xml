@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../-/.idea/-.iml" filepath="$PROJECT_DIR$/../-/.idea/-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Python/.idea/Python.iml" filepath="$PROJECT_DIR$/../Python/.idea/Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TestIHRMSystem.iml" filepath="$PROJECT_DIR$/.idea/TestIHRMSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Test_tpshop_system/.idea/Test_tpshop_system.iml" filepath="$PROJECT_DIR$/../Test_tpshop_system/.idea/Test_tpshop_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../UnitTest_01/.idea/UnitTest_01.iml" filepath="$PROJECT_DIR$/../UnitTest_01/.idea/UnitTest_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../UnitTest_PO_02/.idea/UnitTest_PO_02.iml" filepath="$PROJECT_DIR$/../UnitTest_PO_02/.idea/UnitTest_PO_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../UnitTest_PO_03/.idea/UnitTest_PO_03.iml" filepath="$PROJECT_DIR$/../UnitTest_PO_03/.idea/UnitTest_PO_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Web_automation/.idea/Web_automation.iml" filepath="$PROJECT_DIR$/../Web_automation/.idea/Web_automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../card_system/.idea/card_system.iml" filepath="$PROJECT_DIR$/../card_system/.idea/card_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pymysql_requests_demo/.idea/pymysql_requests_demo.iml" filepath="$PROJECT_DIR$/../pymysql_requests_demo/.idea/pymysql_requests_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test/.idea/test.iml" filepath="$PROJECT_DIR$/../test/.idea/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../unittest_demo/.idea/unittest_demo.iml" filepath="$PROJECT_DIR$/../unittest_demo/.idea/unittest_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../unittest_demo01/.idea/unittest_demo01.iml" filepath="$PROJECT_DIR$/../unittest_demo01/.idea/unittest_demo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../unittest_tpshop/.idea/unittest_tpshop.iml" filepath="$PROJECT_DIR$/../unittest_tpshop/.idea/unittest_tpshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../webAutoTestTPshop/.idea/webAutoTestTPshop.iml" filepath="$PROJECT_DIR$/../webAutoTestTPshop/.idea/webAutoTestTPshop.iml" />
+    </modules>
+  </component>
+</project>

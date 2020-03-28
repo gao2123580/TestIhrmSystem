@@ -1,0 +1,11 @@
+2020-03-27 21:54:49,397 INFO [root] [__init__.py(<module>:16)] - test:-------打印日志信息--------
+2020-03-27 21:54:49,582 INFO [root] [test_emp02.py(test01_emp_login_succeed:32)] - 员工模块登录的响应结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '64b3873c-abe6-448e-9a79-949e22c0a96e'}
+2020-03-27 21:54:49,582 INFO [root] [test_emp02.py(test01_emp_login_succeed:38)] - 请求头部数据为:{'Content-Type': 'application/json', 'Authorization': 'Bearer 64b3873c-abe6-448e-9a79-949e22c0a96e'}
+2020-03-27 21:54:49,654 INFO [root] [test_emp02.py(test02_add_emp:50)] - 添加员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243536957237448704'}}
+2020-03-27 21:54:49,684 INFO [root] [test_emp02.py(test02_add_emp:53)] - 添加员工返回的json数据:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243536957237448704'}}
+2020-03-27 21:54:49,684 INFO [root] [test_emp02.py(test02_add_emp:57)] - 获取员工的id为：1243536957237448704
+2020-03-27 21:54:49,757 INFO [root] [test_emp02.py(test03_quer_emp:69)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243536957237448704', 'mobile': '14790124444', 'username': '我是你的超级英雄007', 'password': '8ecda3c21737968c15223ac1f179d156', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1226092852421177344', 'timeOfEntry': '2020-03-16T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-03-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': 'snowsnow', 'roleIds': [], 'staffPhoto': None}}
+2020-03-27 21:54:49,836 INFO [root] [test_emp02.py(test04_modify_emp:79)] - 修改员工返回的结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1243536957237448704'}}
+2020-03-27 21:54:49,975 INFO [root] [test_emp02.py(test04_modify_emp:87)] - 打印sql语句select username from bs_user where id=1243536957237448704
+2020-03-27 21:54:50,020 INFO [root] [test_emp02.py(test04_modify_emp:91)] - 执行sql语句查询的结果为('奥特曼',)
+2020-03-27 21:54:50,094 INFO [root] [test_emp02.py(test05_delete_emp:106)] - 删除响应结果:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}

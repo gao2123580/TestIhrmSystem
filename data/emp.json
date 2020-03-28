@@ -1,0 +1,29 @@
+{
+  "add_emp": {
+    "username": "我是你的超级英雄007",
+    "mobile": "14790124444",
+    "http_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  "qury_emp": {
+    "http_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  "modify_emp": {
+    "username": "奥特曼",
+    "http_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  "delete_emp": {
+    "http_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  }
+}
